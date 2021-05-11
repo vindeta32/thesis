@@ -1,0 +1,247 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(/fonts/Montserrat-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(/fonts/Montserrat-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+body {
+    font-family: "Montserrat";
+    background-color: #F3F3F3;
+}
+header {
+    padding-right: 53px;
+    padding-left: 50px;
+    padding-top: 49px;
+    position: relative;
+    padding-bottom: 27px;
+}
+
+.wrapper {
+    max-width: 1143px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+
+
+.nav-left {
+    left: -310px;
+    top: 50px;
+    position: absolute;
+
+}
+.nav-right {
+    position: absolute;
+    margin: 0;
+    right: -306px;
+}
+.nav-right-2 {
+    position: absolute;
+    right: -366px;
+}
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+   list-style-type: none;
+   margin: 0;
+   left: -14px;
+    top: 53px;
+   
+}
+.nav-item {
+    padding-left: 29px;
+    padding-right: 26px;
+}
+.nav-item:first-child {
+    padding-left: 0;
+}
+.nav-item:last-child {
+    padding-right: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #2B3541;
+    font-size: 18px;
+    line-height: 150%;
+}
+.main {
+    max-width: 1325px;
+    max-width: 852px;
+    padding-bottom: 66px;
+}
+.main-info {
+    position: relative;
+    width: 100%;
+    bottom: 597px;
+    left: 30px;
+    width: 100%;
+    max-width: 676px;
+    max-height: 385px;  
+    
+}
+.title-h1 {
+    font-size: 48px;
+    line-height: 125%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #2B3541;
+    margin: 0;
+}
+.info {
+    position: absolute;
+    max-width: 425px;
+    height: 211px;
+}
+
+.info-workout {
+    font-size: 40px;
+    line-height: 125%;
+    color: #2B3541;
+    left: -1px;
+    top: 155px;
+    
+}
+.info-workout-1 {
+    font-size: 40px;
+    line-height: 125%;
+    color: #2B3541;
+    left: 90px;
+    top: 40px;
+    position: absolute;
+    padding-bottom: 20px;
+    margin: 0;
+}
+.info-workout-PE {
+    font-size: 18px;
+    line-height: 150%;
+    color: #2B3541;
+    top: 112px;
+    left: 91px;
+    position: absolute;
+    display: inline;
+    margin: 0;
+    width: 297px;
+    height: 49px;
+}
+.yellow-button {
+    border: none;
+    background: #FBF138;
+    color: #2B3541;
+    width: 252px;
+    height: 64px;   
+    box-shadow: rgba(251, 241, 56, 0.3);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    position: absolute;
+    top: 201px;
+    right: -272px;
+}
+
+.main-foto {
+    position: relative;
+    right: -358px;
+    top: 31px;
+}
+.main-arrow {
+    position: absolute;
+    top: 903px;
+    left: 135px;
+}
+.screen-2 {
+    position: absolute;
+    left: 42px;
+    max-width: 1143px;
+    max-height: 690px;
+    padding-bottom: 160px;
+    width: 100%;
+    height: 100%;
+}
+.title-h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    color: #2B3541;
+    margin: 0;
+    padding-bottom: 40px;
+}
+.events {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+   margin: 0;
+   padding-left: 0;
+   left: 2px;
+   max-width: 1140px;
+    max-height: 600px;
+    width: 100%;
+    height: 100%;
+}
+.events-1 {
+    max-width: 367px;
+    max-height: 600px;
+    width: 100%;
+    height: 100%;
+    background-image: url(/files/@1x/maraphon.png)!important;
+    background: linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0) 100%);
+    opacity: 0.3;
+    margin-left: 0px;
+}
+.events-2 {
+    max-width: 366px;
+    max-height: 600px;
+    width: 100%;
+    height: 100%;
+    background-image: url(/files/@1x/Vebinar\ 1.png)!important;
+    background: linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0) 100%);
+    opacity: 0.3;
+    margin-left: 20px;
+}
+.events-3 {
+    max-height: 600px;
+    max-width: 367px;
+    width: 100%;
+    height: 100%;
+    background: url(/files/@1x/Vebinar\ 2.png);
+    background: linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0) 100%);
+    opacity: 0.3;
+    margin-left: 20px;
+    
+}
+.title-events {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 125%;
+    color: #2B3541;
+
+}
+.events-data {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2B3541;
+    opacity: 0.6;
+}
+.events-button {
+    border: none;
+    background: #FBF138;
+    color: #2B3541;
+    width: 126px;
+    height: 47px;   
+    font-size: 18px;
+    line-height: 150%;
+    position: absolute;
+
+}
