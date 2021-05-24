@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thesis</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="/css/jquery-ui.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -25,10 +26,15 @@
                 <a class="nav-right-2" href=""><img class="icons-header" src="/icons/FB.svg" alt="FB"></a> 
             </div>
         </header>
-        
+        <div class="header-mobile">
+            <img class="logo-mobile" width: 78px; height: 24px; src="/logo.svg" alt="logo">
+            <button id="opener" class="opener"><img src="/icons/menu.svg" alt="Menu"></button>
+            <a class="mobile-icon-1" href="https://www.instagram.com/_ooorlova_/"><img class="icons-mobile-1" src="/icons/IN.svg" alt="IN"></a> 
+            <a class="mobile-icon-2" href=""><img class="icons-mobile-2" src="/icons/FB.svg" alt="FB"></a> 
+        </div>
         <main>
             <div class="main">
-                <img class="main-foto" src="/files/@1x/Image 1 screen.png" alt="">
+                <img class="main-foto" src="/files/@1x/Image 1 screen.png" alt="foto">
                 <div class="main-info">
                     <h1 class="title-h1">онлайн тренировки<br>любой сложности</h1>
                     <div class="info">
@@ -73,47 +79,175 @@
                 </div>
                 <div class="grid-container">
                     <div class="grid-item-1">
-                        <img src="/icons/body.svg" alt="body">
-                        <div class="grid-item-name">Функциональный тренинг</div>
-                        <div class="grid-item-data">22 июня, 10:00</div>
+                        <img class="grid-foto-1" src="/icons/body.svg" alt="body">
+                        <div class="grid-item-name-1">Функциональный тренинг</div>
+                        <div class="grid-item-data-1">22 июня, 10:00</div>
                     </div>
                     <div class="grid-item-2">
-                        <img src="/icons/bottle.svg" alt="bottle">
-                        <div class="grid-item-name">Body sculpt</div>
-                        <div class="grid-item-data">24 июня, 10:00</div>
+                        <img class="grid-foto-2" src="/icons/bottle.svg" alt="bottle">
+                        <div class="grid-item-name-2">Body sculpt</div>
+                        <div class="grid-item-data-2">24 июня, 10:00</div>
                     </div>
                     <div class="grid-item-3">
-                        <img src="/icons/dumbbell.svg" alt="dumbbell">
-                        <div class="grid-item-name">L.A.B.</div>
-                        <div class="grid-item-data">26 июня, 11:00</div>
+                        <img class="grid-foto-3" src="/icons/dumbbell.svg" alt="dumbbell">
+                        <div class="grid-item-name-3">L.A.B.</div>
+                        <div class="grid-item-data-3">26 июня, 11:00</div>
                     </div>
                     <div class="grid-item-4">
-                        <img src="/icons/jump.svg" alt="jump">
-                        <div class="grid-item-name">Силовой микс</div>
-                        <div class="grid-item-data">23 июня, 10:00</div>
+                        <img class="grid-foto-4" src="/icons/jump.svg" alt="jump">
+                        <div class="grid-item-name-4">Силовой микс</div>
+                        <div class="grid-item-data-4">23 июня, 10:00</div>
+                        <div class="grid-item-4-p">Упражнения помогут создать<br>красивый рельеф и прийти<br>в спортивную форму.</div>
                     </div>
                     <div class="grid-item-5">
-                        <img src="/icons/heart.svg" alt="heart">
-                        <div class="grid-item-name">Дыхательные практики</div>
-                        <div class="grid-item-data">25 июня, 11:00</div>
+                        <img class="grid-foto-5" src="/icons/heart.svg" alt="heart">
+                        <div class="grid-item-name-5">Дыхательные практики</div>
+                        <div class="grid-item-data-5">25 июня, 11:00</div>
                     </div>
                     <div class="grid-item-6">
-                        <img src="/icons/weight.svg" alt="weight">
-                        <div class="grid-item-name">Комплексная разминка</div>
-                        <div class="grid-item-data">27 июня, 10:00</div>
+                        <img class="grid-foto-6" src="/icons/weight.svg" alt="weight">
+                        <div class="grid-item-name-6">Комплексная разминка</div>
+                        <div class="grid-item-data-6">27 июня, 10:00</div>
                     </div>
                 </div>
             </div>
         </main>
+        <div class="main-mobile">
+            <h1 class="title-h1-mobile">онлайн тренировки<br>любой сложности</h1>
+                    <div class="info-mobile">
+                        <p class="info-workout-mobile">> 15</p>
+                        <p class="info-workout-1-mobile">тренировок</p>
+                        <p class="info-workout-PE-mobile">в области спортивной<br>физиологии и нутрициологии</p>
+                    </div>
+                    <button class="yellow-button-mobile" type="submit">Узнать подробнее</button>
+                    <img class="main-foto-mobile" src="/files/@2x/Image 1 screen@2x.png" alt="foto">
+                    <div class="screen-2-mobile">
+                        <h2 class="title-h2-mobile">Ближайшие события</h2>
+                        <div class="events-mobile">
+                            <div class="event-1-mobile">
+                                <p class="events-data-1-mobile">29.06 - 4.07</p>
+                                <p class="title-events-1-mobile">Марафон выносливости</p>
+                                <button class="events-button-1-mobile" type="submit">марафон</button>
+                                <a href="#" class="image-gradient-1-mobile"></a>
+                                <button class="participate-button-1-mobile" type="submit">+</button>
+                            </div>
+                            <div class="event-2-mobile">
+                                <p class="events-data-2-mobile">9.07</p>
+                                <p class="title-events-2-mobile">Как стать<br>тренером?</p>
+                                <button class="events-button-2-mobile" type="submit">вебинар</button>
+                                <a href="#" class="image-gradient-2-mobile"></a>
+                                <button class="participate-button-2-mobile" type="submit">+</button>
+                            </div>
+                            <div class="event-3-mobile">
+                                <p class="events-data-3-mobile">15.07</p>
+                                <p class="title-events-3-mobile">Йога, как<br>стиль жизни</p>
+                                <button class="events-button-3-mobile" type="submit">вебинар</button>
+                                <a href="#" class="image-gradient-3-mobile"></a>
+                                <button class="participate-button-3-mobile" type="submit">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="screen-3-mobile">
+                        <div class="title-screen-3-mobile">
+                            <h2 class="title-h3-mobile">Расписание<br>тренировок</h2>
+                            <p class="title-data-mobile">22 - 28 июня</p>
+                        </div>
+                        <div class="grid-container-mobile">
+                            <div class="grid-item-1-mobile">
+                                <img class="grid-image-1-mobile" src="/icons/body.svg" alt="body">
+                                <div class="grid-item-name-mobile-1">Функциональный тренинг</div>
+                                <div class="grid-item-data-mobile-1">22 июня, 10:00</div>
+                            </div>
+                            <div class="grid-item-2-mobile">
+                                <img class="grid-image-2-mobile" src="/icons/jump.svg"  alt="bottle">
+                                <div class="grid-item-name-mobile-2">Силовой микс</div>
+                                <div class="grid-item-data-mobile-2">23 июня, 10:00</div>
+                            </div>
+                            <div class="grid-item-3-mobile">
+                                <img class="grid-image-3-mobile" src="/icons/bottle.svg"  alt="dumbbell">
+                                <div class="grid-item-name-mobile-3">Body sculpt</div>
+                                <div class="grid-item-data-mobile-3">24 июня, 10:00</div>
+                            </div>
+                            <div class="grid-item-4-mobile">
+                                <img class="grid-image-4-mobile" src="/icons/heart.svg"  alt="jump">
+                                <div class="grid-item-name-mobile-4">Дыхательные практики</div>
+                                <div class="grid-item-data-mobile-4">25 июня, 11:00</div>
+                            </div>
+                            <div class="grid-item-5-mobile">
+                                <img class="grid-image-5-mobile" src="/icons/dumbbell.svg"  alt="heart">
+                                <div class="grid-item-name-mobile-5">L.A.B.</div>
+                                <div class="grid-item-data-mobile-5">26 июня, 11:00</div>
+                            </div>
+                            <div class="grid-item-6-mobile">
+                                <img class="grid-image-6-mobile" src="/icons/weight.svg" alt="weight">
+                                <div class="grid-item-name-mobile-6">Комплексная разминка</div>
+                                <div class="grid-item-data-mobile-6">27 июня, 10:00</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="screen-4-mobile">
+                        <div class="sub-field-mobile">
+                            <img class="sub-circle-mobile" src="/icons/Pattern.svg" alt="Pattern">
+                            <div class="title-sub-mobile">Подпишитесь<br>на рассылку</div>
+                            <input class="sub-input-mobile" id="email-mobile" type="email" name="email" placeholder="Ваш e-mail">
+                            <button class="sub-button-mobile">ПОДПИСАТЬСЯ</button>
+                            <input class="checkbox-mobile" type="checkbox" checked>
+                            <div class="sub-title-agree-mobile">Согласен с обработкой</div>
+                            <div class="sub-title-agree-2-mobile">персональных данных</div>
+                        </div>
+                    </div>
+                    <div class="screen-5-mobile">
+                        <h2 class="title-5-mobile">О компании</h2>
+                         <p class="screen-5-content-mobile">Наша компания является одной<br>из немногих, кто предлагает фитнес<br>услуги онлайн! Оставайтесь с нами<br>и вы сами увидите, что мы проводим<br>не только онлайн-тренировки.</p>
+                         <div class="advantages-mobile">
+                            <div class="advantages-item-1-mobile">
+                                <div class="advantages-item-title-1-mobile">Экономия времени </div>
+                                <div class="advantages-item-p-1-mobile">Не нужно тратить время на дорогу</div>
+                            </div>
+                            <div class="advantages-item-2-mobile">
+                                <div class="advantages-item-title-2-mobile">Индивидуальный подход</div>
+                                <div class="advantages-item-p-2-mobile">Внимание тренера пренадлежит только вам</div>
+                            </div>
+                            <div class="advantages-item-3-mobile">
+                                <div class="advantages-item-title-3-mobile">Экономия денег</div>
+                                <div class="advantages-item-p-3-mobile">Средняя цена одной тренировки - 700₽</div>
+                            </div>
+                            <div class="advantages-item-4-mobile">
+                                <div class="advantages-item-title-4-mobile">Опытный персонал</div>
+                                <div class="advantages-item-p-4-mobile">Стаж работы у наших тренеров от 5 лет</div>
+                            </div>
+                        </div>
+                        <button class="screen-5-button-mobile">Записаться</button>
+                        <a href="#" class="trainer-mobile"></a>
+                        
+                    </div>
+                    <div class="footer-mobile">
+                        <img class="logo-footer-mobile" width: 97px; height: 30px; src="/logo.svg" alt="logo">
+                        <div class="footer-menu-mobile">
+                            <p class="footer-menu-item-mobile">Мероприятия</p>
+                            <p class="footer-menu-item-mobile">Расписание</p>
+                            <p class="footer-menu-item-mobile">О компании</p>
+                        </div>
+                        <img class="fot-ellipse-mobile" src="/icons/Ellipse 3.svg" alt="Ellipse">
+                        <div class="footer-mobile-social">
+                            <a  class="url-mobile" href="url">info@freefit.com</a>
+                            <a class="fot-in-mobile" href="#"><img class="icons-header" src="/icons/IN.svg" alt="IN" width: 27px; height: 27px;></a> 
+                            <a class="fot-fb-mobile" href="#"><img class="icons-header" src="/icons/FB.svg" alt="FB" width: 27px; height: 27px;></a> 
+                        </div>
+                        <p class="footer-down-mobile-1">&#169; 2020, Все права защищены</p>
+                        <p class="footer-down-mobile-2">Сделано в рамках курса учебной платформы</p>
+                        <a class="fot-down-item-2-mobile" href="frontendblok.com">Frontend Blok</a>
+                    </div>
+        </div>
     </div>
     <div class="screen-4">
         <div class="sub">
-            <img class="sub-circle" src="/icons/Pattern.svg" alt="Pattern">
-            <div class="title-sub">Подпишитесь на рассылку</div>
             <div class="sub-field">
+                <img class="sub-circle" src="/icons/Pattern.svg" alt="Pattern">
+                <div class="title-sub">Подпишитесь на рассылку</div>
                 <input class="sub-input" id="email" type="email" name="email" placeholder="Ваш e-mail">
                 <button class="sub-button">ПОДПИСАТЬСЯ</button>
-                <INPUT type="image" class="sub-box-emty"  value="">
+                <input class="checkbox" type="checkbox" checked>
                 <div class="sub-title-agree">Согласен с обработкой</div>
                 <div class="sub-title-agree-2">персональных данных</div>
             </div>
@@ -126,7 +260,7 @@
                 <h2 class="title-5">О компании</h2>
                 <p class="screen-5-content">Наша компания является одной из немногих, кто<br>предлагает фитнес услуги онлайн! Оставайтесь<br>с нами и вы сами увидите, что мы проводим<br>не только онлайн-тренировки.</p>
                 <button class="screen-5-button">Записаться</button>
-                <img class="trainer" src="/files/@1x/trainer.png" alt="trainer">
+                <a href="#" class="trainer"></a>
             </div>
             <div class="advantages">
                 <div class="advantages-item-1">
@@ -170,7 +304,30 @@
             </div>
         </div>
     </footer>
-    
+    <div id="dialog" title="Basic dialog">
+        <p>This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the &apos;x&apos; icon.</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="/script/jquery-ui.min.js"></script>
+    <script>
+        $( function() {
+          $( "#dialog" ).dialog({
+            autoOpen: false,
+            show: {
+              effect: "blind",
+              duration: 1000
+            },
+            hide: {
+              effect: "blind",
+              duration: 1000
+            }
+          });
+       
+          $( "#opener" ).on( "click", function() {
+            $( "#dialog" ).dialog( "open" );
+          });
+        } );
+    </script>
     
 </body>
 </html>
